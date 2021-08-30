@@ -104,6 +104,8 @@ h2{
 }
 
 
+
+
 #ptext{
     
     color: red;
@@ -199,4 +201,215 @@ button{
 a{
     text-decoration: none;
     color: white;
+}
+
+
+@media screen and (min-width:360px) and (max-width:640px) {
+    .head-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: baseline;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+
+
+    h2 span {
+        font-size: 40px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+
+    }
+
+
+
+    h2 {
+        font-size: 40px;
+        font-weight: 100;
+        color: grey;
+        font-family: 'Roboto', sans-serif;
+        margin-right: -77px;
+    }
+
+    #hleft {
+        display: flex;
+        margin-right: 110px;
+
+    }
+
+    #hright{
+        margin-right: 20px;
+    }
+    #icon {
+        margin-top: 40px;
+        margin-right: 12px;
+    }
+
+    #ico {
+        color: #e84343;
+        font-size: 35px;
+
+    }
+
+    #add{
+        display: none;
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .card-container hr{
+        display: none;
+    }
+
+    #paris {
+        border: 1px solid #f8cbc6;
+        width: 300px;
+        height: 60px;
+        border-radius: 10px;
+        font-weight: bold;
+        padding: 8px;
+        box-shadow: 6px 5px 6px #d8d8d8;
+        overflow: hidden;
+        margin-right: 10px;
+    }
+
+
+    #todo1 {
+        border: 1px solid #f8cbc6;
+        width: 300px;
+        height: 60px;
+        border-radius: 10px;
+        margin-top: 20px;
+        font-weight: bold;
+        padding: 8px;
+        box-shadow: 6px 5px 6px #d8d8d8;
+        overflow: hidden;
+        margin-right: 10px;
+    }
+
+    #todo2 {
+        border: 1px solid #f8cbc6;
+        width: 300px;
+        height: 60px;
+        border-radius: 10px;
+        margin-top: 20px;
+        font-weight: bold;
+        padding: 8px;
+        box-shadow: 6px 5px 6px #d8d8d8;
+        overflow: hidden;
+        margin-right: 10px;
+    }
+
+  
+
+    #ptext {
+
+        color: #8d7673;
+        font-size: 22px;
+        font-family: 'Roboto', sans-serif;
+        padding-left: 12px;
+        margin-top: 15px;
+
+    }
+
+    .blurimg{
+        background-image: url("../images/todo1.png");
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        filter: blur(6px);
+        margin-top: 80px;
+
+    }
+
+    .blurimg img{
+        display: none;
+    }
+
+    .add-item {
+        width: 290px;
+        line-height: 5px;
+        height: 170px;
+        left: 35px;
+        top: 225px;
+        bottom: 0;
+        padding-top: 15px;
+    }
+
+    .add-item p {
+        font-size: 22px;
+    }
+
+    #in1 {
+        width: 220px;
+        font-size: 22px;
+    }
+
+    button {
+        font-size: 20px;
+    }
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+    .head-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 100px;
+        /* margin-right: 100px; */
+
+    }
+
+    #paris{
+        margin-right: 0;
+    }
+
+    #todo1{
+        margin-right: 0;
+    }
+
+    #hleft {
+        display: flex;
+        margin-right: -60px;
+    }
+
+    .add-item {
+        left: 48%;
+        top:  35%;
+        width: 70vw;
+        height: 27vh;
+    }
+
+    .add-item p{
+        font-size: 40px;
+    }
+
+    #in1{
+        width: 330px;
+    }
+
+    button{
+        height: 10vw;
+        font-size: 2rem;
+        width: 24vw;
+    }
+    .blurimg {
+        width: 120%;
+        height: 90vh;
+        margin-top: 20%;
+        margin-left: 20%;
+    }
+
+
 }

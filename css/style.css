@@ -214,3 +214,131 @@ button{
     margin-top: 15px;
     cursor: auto;
 }
+
+
+@media screen and (min-width:360px) and (max-width:640px) {
+
+   
+    .head-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 450px;
+        margin-top: 30px;
+
+    }
+
+
+
+    h2 span {
+        font-size: 2.5rem;
+        width: 250px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(55, 53, 53);
+
+    }
+
+    #hleft{
+        margin-right: 50px;
+    }
+
+    #icon {
+      position: absolute;
+      top: 15px;
+      left: 40px;
+    }
+
+    #ico {
+        font-size: 2rem;
+    }
+
+    .card-container {
+        margin-left: 90px;
+        margin-top: 20px;
+    }
+
+    #horizontal{
+        display: none;
+    }
+    #paris {
+        width: 500px;
+    }
+
+    #paris hr {
+        margin-left: 70px;
+        width: 190px;
+    }
+
+    #ptext {
+        padding-left: 60px;
+    }
+
+    .blurimg {
+        width: 100%;
+        margin-top: 10px;
+        background-image: url("../images/paris2.png");
+        height: 100vh;
+        background-size: cover;
+
+    }
+
+    .blurimg img{
+        display: none;
+    }
+
+    #add{
+        display: none;
+    }
+
+    .add-item {
+        width: 290px;
+        line-height: 5px;
+        height: 170px;
+        left: 35px;
+        top: 225px;
+        bottom: 0;
+        padding-top: 15px;
+    }
+
+    .add-item p {
+        font-size: 22px;
+    }
+
+    #in1 {
+        width: 220px;
+        font-size: 22px;
+    }
+
+    button {
+        font-size: 20px;
+    }
+
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+    .add-item {
+        left: 18%;
+    }
+
+    .blurimg {
+        width: 100%;
+        margin-top: 20%;
+        
+    }
+
+    #hleft{
+        margin-right: -15px;
+    }
+    #hr1{
+        left: 493px;
+    }
+
+    #hr2{
+        right: 640px;
+    }
+
+}
